@@ -19,3 +19,11 @@ Route::get('/', function () {
 
 // Use the React Router.
 Route::view('/{path?}', 'app');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
