@@ -35,7 +35,10 @@ My implementation of the Laravel Task List Quickstart with a React frontend.
 7. `php artisan migrate`
 8. `php artisan make:model Task`
     * `php artisan make:model Task -m` would have also created the database migration.
-
+9. `php artisan make:controller TaskController`
 
 ## References
 * [Using React in a Laravel application](https://blog.pusher.com/react-laravel-application/)
+
+## TODO
+* Need to figure out how to get authentication to work through the API.

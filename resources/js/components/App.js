@@ -11,12 +11,22 @@ class App extends Component {
             <BrowserRouter>
                 <Container text style={{ marginTop: '7em' }}>
                     <Header />
-                    <Switch exact path='/' component={TaskList} />
+                    <Route path="/home" exact component={TaskList} />
                 </Container>
             </BrowserRouter>
-        )
+    )
     }
 }
+
+/*
+            <BrowserRouter>
+                <Container text style={{ marginTop: '7em' }}>
+                    <Header />
+                    <Switch exact path='/home' component={TaskList} />
+                </Container>
+                <TaskList></TaskList>
+            </BrowserRouter>
+*/
 
 /*
 if (document.getElementById('app')) {
@@ -25,3 +35,5 @@ if (document.getElementById('app')) {
 */
 
 ReactDOM.render(<App />, document.getElementById('app'));
+
+export default App;
