@@ -1,6 +1,8 @@
 # php-react-task-list
 My implementation of the Laravel Task List Quickstart with a React frontend.
 
+I like this one better than my last attempt, but I'm a bit stuck on the authentication bit.  I really should have implemented authentication *first*.  I'm going to start another project experimenting with Laravel/React authentication.
+
 ## Setting up the development environment
 **WARNING: There are probably some extra steps here.**
 
